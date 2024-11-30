@@ -1,2 +1,5 @@
-package org.example.beans;public class SomeBean {
+package org.example.beans;
+
+public class SomeBean {
 }
+

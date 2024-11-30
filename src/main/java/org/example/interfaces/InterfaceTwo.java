@@ -1,2 +1,5 @@
-package org.example.interfaces;public interface InterfaceTwo {
+package org.example.interfaces;
+
+public interface InterfaceTwo {
+    void doSomeTwo();
 }
