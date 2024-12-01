@@ -6,13 +6,13 @@ import org.example.interfaces.InterfaceTwo;
 
 public class SomeBean {
     @AutoInjectable
-    private InterfaceOne oneField;
+    private InterfaceOne fieldOne;
     @AutoInjectable
-    private InterfaceTwo twoField;
+    private InterfaceTwo fieldTwo;
 
     public void process(){
-        oneField.doSomeOne();
-        twoField.doSomeTwo();
+        fieldOne.doSomeOne();
+        fieldTwo.doSomeTwo();
     }
 }
 
