@@ -14,5 +14,13 @@ public class SomeBean {
         fieldOne.doSomeOne();
         fieldTwo.doSomeTwo();
     }
+
+    public InterfaceOne getFieldOne() {
+        return fieldOne;
+    }
+
+    public InterfaceTwo getFieldTwo() {
+        return fieldTwo;
+    }
 }
 
